@@ -6,6 +6,7 @@
         --background: #fff;
         --background-tarjeta: #722E85;
         --background-tarjeta-gradiente: #C72627;
+        --font-size-header: 2rem;
     }
 
     /* =======Variables Globales====== */
@@ -32,6 +33,10 @@
         display: inline-block;
     }
 
+    .puntajeTexto{
+        font-size: var(--font-size-header); 
+        margin-bottom: 1em;
+    }
     .area-tarjeta,
     .tarjeta,
     .cara {
