@@ -3,6 +3,9 @@
     :root {
         --w: calc(70vw / 6);
         --h: calc(70vh / 4);
+        --background: #fff;
+        --background-tarjeta: #722E85;
+        --background-tarjeta-gradiente: #C72627;
     }
 
     /* =======Variables Globales====== */
@@ -15,7 +18,7 @@
         padding: 0;
         margin: 0;
         -webkit-perspective: 1000;
-        background: powderblue;
+        background: var(--background);
         min-height: 100vh;
         display: flex;
         flex-direction: column;
@@ -60,12 +63,12 @@
     }
 
     .superior {
-        background: linear-gradient(orange, darkorange);
+        background: linear-gradient(var(--background-tarjeta), var(--background-tarjet));
     }
 
     .nuevo-juego {
         cursor: pointer;
-        background: linear-gradient(orange, darkorange);
+        background: linear-gradient(var(--background-tarjeta), var(--background-tarjeta));
         padding: 20px;
         border-radius: 50px;
         border: white 5px solid;
