@@ -4,6 +4,12 @@
         let iconos = []
         let selecciones = []
 
+        let puntaje; 
+        function actualizarPuntaje(){
+            let divPuntaje = document.getElementById('puntaje');
+            divPuntaje.textContent = 'Puntaje: ' + puntaje;
+            console.log('actualizarPuntaje fue llamada, puntaje' + puntaje);
+        }    
         generarTablero()
 
         // ========Los iconos estan dandos por una librería llamada Font Awesome, por lo que se debe tener acceso a internet para poder visualizar los iconos.=======
@@ -25,6 +31,8 @@
         }
 
         function generarTablero() {
+            puntaje = 0; //Inicializar puntjae
+            actualizarPuntaje(); //Actualizar puntaje en la pantalla
             cargarIconos()
             selecciones = []
             let tablero = document.getElementById("tablero")
@@ -74,8 +82,12 @@
                 }else{
                     trasera1.style.background = "plum"
                     trasera2.style.background = "plum"
+                    puntaje += 1000; 
+                    actualizarPuntaje();
                 }
             }, 1000);
         }
 
-    
+        // =======Sistema de Puntaje========
+
+     
