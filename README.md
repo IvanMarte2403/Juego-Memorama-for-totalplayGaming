@@ -3,6 +3,9 @@ Es un juego sencillo como iframe para la sección de TotalplayGaming, para reali
 ![image](https://github.com/IvanMarte2403/Juego-Memorama-for-totalplayGaming/assets/91630964/165b4db0-a548-45ed-97f5-6f2b93984a9d)
 ![image](https://github.com/IvanMarte2403/Juego-Memorama-for-totalplayGaming/assets/91630964/725803fe-688d-477d-94df-dc7b7ab0252f)
 
+# Implementación de Branding de Totalplay: 
+![image](https://github.com/IvanMarte2403/Juego-Memorama-for-totalplayGaming/assets/91630964/9c0269c8-8101-4cc1-bc27-333b51030933)
+![image](https://github.com/IvanMarte2403/Juego-Memorama-for-totalplayGaming/assets/91630964/578475cc-790f-47d6-8f00-65839db6d3fe)
 
 # Implementación de Sistema de Puntaje
 
