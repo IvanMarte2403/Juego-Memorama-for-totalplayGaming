@@ -18,7 +18,7 @@
                 '<img src="img/totalplay-tv.png" class="imagen-card"></img>',
                 '<img src="img/75megas.png" class="imagen-card"></img>',
                 '<img src="img/150megas.png" class="imagen-card"></img>',
-                '<img src="img/300megas .png" class="imagen-card"></img>',
+                '<img src="img/300megas.png" class="imagen-card"></img>',
                 '<img src="img/600Megas.png" class="imagen-card"></img>',
                 '<img src="img/1000Megas.png" class="imagen-card"></img>',
                 '<img src="img/totalplay-tv.png" class="imagen-card"></img>',
