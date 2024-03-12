@@ -35,8 +35,10 @@
     }
 
     .puntajeTexto{
+        margin-top: 2rem;
         font-size: var(--font-size-header); 
         margin-bottom: 1em;
+        color: #fff;
     }
     .area-tarjeta,
     .tarjeta,
