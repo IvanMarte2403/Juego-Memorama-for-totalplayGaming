@@ -2,7 +2,7 @@
     /* =======Variables de cambios====== */
     :root {
         --w: calc(70vw / 6);
-        --h: calc(70vh / 4);
+        --h: calc(100vh / 4);
         --background: #fff;
         --background-tarjeta: #722E85;
         --background-tarjeta-gradiente: #C72627;
@@ -27,6 +27,7 @@
         align-items: center;
         text-align: center;
         font-family: calibri;
+        background-image: url(img/background.gif);
     }
 
     div {
@@ -78,10 +79,12 @@
     .nuevo-juego {
         cursor: pointer;
         background: linear-gradient(var(--background-tarjeta), var(--background-tarjeta));
-        padding: 20px;
         border-radius: 50px;
         border: white 5px solid;
-        font-size: 130%;
+        font-size: 120%;
+        color: #fff;
+        font-weight: 500;
+        padding: 1.2rem;
     }
 
     #tablero {
@@ -93,23 +96,37 @@
 
     .imagen-card{
         width: 80%;
+        height: auto;
 
     }
 
     
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1000px) {
         .imagen-card{
             width: 100%;
         }
 
         #tablero{
-            grid-template-columns: repeat(2, 1fr) !important;
+            grid-template-columns: repeat(4, 1fr) !important;
         }
 
         .puntajeTexto{
             font-size: 100px;
         }
+
+        .area-tarjeta, .tarjeta, .cara{
+            min-width: 209px
+        }
+
+        .nuevo-juego{
+            margin-top: 5vh;
+            font-size: 2rem;
+       
+        }
+
+       
     } 
+
 
     @keyframes iniciar {
 

@@ -7,7 +7,7 @@
         let puntaje; 
         function actualizarPuntaje(){
             let divPuntaje = document.getElementById('puntaje');
-            divPuntaje.textContent = 'Puntaje: ' + puntaje;
+            divPuntaje.textContent = 'PUNTAJE: ' + puntaje;
             console.log('actualizarPuntaje fue llamada, puntaje' + puntaje);
         }    
         generarTablero()
