@@ -15,18 +15,14 @@
         // ========Los iconos estan dandos por una librería llamada Font Awesome, por lo que se debe tener acceso a internet para poder visualizar los iconos.=======
         function cargarIconos() {
             iconos = [
-                '<i class="fas fa-star"></i>',
-                '<i class="far fa-star"></i>',
-                '<i class="fas fa-star-of-life"></i>',
-                '<i class="fas fa-star-and-crescent"></i>',
-                '<i class="fab fa-old-republic"></i>',
-                '<i class="fab fa-galactic-republic"></i>',
-                '<i class="fas fa-sun"></i>',
-                '<i class="fas fa-stroopwafel"></i>',
-                '<i class="fas fa-dice"></i>',
-                '<i class="fas fa-chess-knight"></i>',
-                '<i class="fas fa-chess"></i>',
-                '<i class="fas fa-dice-d20"></i>',
+                '<img src="img/totalplay-tv.png" class="imagen-card"></img>',
+                '<img src="img/75megas.png" class="imagen-card"></img>',
+                '<img src="img/150megas.png" class="imagen-card"></img>',
+                '<img src="img/300megas .png" class="imagen-card"></img>',
+                '<img src="img/600Megas.png" class="imagen-card"></img>',
+                '<img src="img/1000Megas.png" class="imagen-card"></img>',
+                '<img src="img/totalplay-tv.png" class="imagen-card"></img>',
+                '<img src="img/wifi-pro.png" class="imagen-card"></img>',
             ]
         }
 
@@ -37,7 +33,7 @@
             selecciones = []
             let tablero = document.getElementById("tablero")
             let tarjetas = []
-            for (let i = 0; i < 24; i++) {
+            for (let i = 0; i < 12; i++) {
                 tarjetas.push(`
                 <div class="area-tarjeta" onclick="seleccionarTarjeta(${i})">
                     <div class="tarjeta" id="tarjeta${i}">
@@ -45,7 +41,6 @@
                             ${iconos[0]}
                         </div>
                         <div class="cara superior">
-                            <i class="far fa-question-circle"></i>
                         </div>
                     </div>
                 </div>        
