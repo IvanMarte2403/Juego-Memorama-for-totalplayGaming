@@ -167,6 +167,13 @@
        
         }
 
+        #boton-jugar{
+            font-size: 1.9rem;
+        }
+        #pantalla-inicio p{
+            font-size: 2.4rem;
+            text-align: left;
+        }
        
     } 
 
