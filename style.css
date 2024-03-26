@@ -2,7 +2,8 @@
     /* =======Variables de cambios====== */
     :root {
         --w: calc(70vw / 6);
-        --h: calc(100vh / 4);
+        --h: calc(100vh / 6);
+        --h-mobile: calc(100vh / 9);
         --background: #fff;
         --background-tarjeta: #722E85;
         --background-tarjeta-gradiente: #C72627;
@@ -150,7 +151,11 @@
         }
 
         #tablero{
-            grid-template-columns: repeat(4, 1fr) !important;
+            grid-template-columns: repeat(3, 1fr) !important;
+        }
+
+        .area-tarjeta, .tarjeta, .cara {
+            height: var(--h-mobile) !important;
         }
 
         .puntajeTexto{
