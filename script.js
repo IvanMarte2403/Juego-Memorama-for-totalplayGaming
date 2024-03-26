@@ -84,5 +84,10 @@
         }
 
         // =======Sistema de Puntaje========
-
-     
+        window.onload = function() {
+            document.getElementById('boton-jugar').addEventListener('click', function() {
+                document.getElementById('pantalla-inicio').style.display = 'none';
+                document.getElementById('pantalla-juego').style.display = 'block';
+                generarTablero();
+            });
+        };

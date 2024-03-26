@@ -10,22 +10,36 @@
 </head>
 
 <body>
-    <div id="puntaje" class="puntajeTexto"> PUNTAJE: 0 </div>
+    <!-- Pantalla de inicio -->
+    <div id="pantalla-inicio">
+        <img src="img/logo-memorama.png" alt="">
+        <h1>Bienvenido al juego</h1>
+        <p><b>Busca y Encuentra: </b>Da vuelta a las cartas y encuentra dos que sean iguales. Piensa rápido, ¡es como encontrar la mejor señal WiFi!</p>
 
-    <!-- =======Tablero======= Contenedor Padres======== -->
-    <div id="tablero">
+        <p><b>Intenta de Nuevo:</b> Si las cartas no son pareja, vuélvelas a colocar boca abajo. Es como cuando intentas recordar dónde dejaste las llaves; a veces, necesitas un segundo intento.</p>
+
+        <p><b>Colecciona y Gana:</b> Si las cartas no son pareja, vuélvelas a colocar boca abajo. Es como cuando intentas recordar dónde dejaste las llaves; a veces, necesitas un segundo intento.</p>
+
+
+        <button id="boton-jugar">Jugar</button>
     </div>
 
-    <br>
-    <!-- =======Generación de Tablero====== -->
-    <div class="nuevo-juego" onclick="generarTablero()">
-        NUEVO JUEGO
+    <!-- Pantalla del juego -->
+    <div id="pantalla-juego" style="display: none;">
+        <div id="puntaje" class="puntajeTexto"> PUNTAJE: 0 </div>
+
+        <!-- =======Tablero======= Contenedor Padres======== -->
+        <div id="tablero">
+        </div>
+
+        <br>
+        <!-- =======Generación de Tablero====== -->
+        <div class="nuevo-juego" onclick="generarTablero()">
+            NUEVO JUEGO
+        </div>
     </div>
-
-    
-
 </body>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </html>

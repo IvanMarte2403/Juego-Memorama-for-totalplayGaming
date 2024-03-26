@@ -102,6 +102,47 @@
 
     }
 
+    /* ========Instrucciones======== */
+
+    #pantalla-inicio{
+        background-color: #000;
+        background-image: url('img/background-2.gif');
+        background-size: cover;
+        padding: 10vh 1vh;
+        border: 2px solid #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #pantalla-inicio p{
+        color: #fff;
+        width: 70%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    #pantalla-inicio b{
+        color: #efa94a
+    }
+    #pantalla-inicio img{
+        width: 50%;
+    }
+
+    #boton-jugar{
+        margin-top: 2rem;   
+        padding: 1rem 8rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+        box-shadow: 0 5px 5px rgba(255, 255, 255, 0.5);
+    }
+
+    #boton-jugar:hover{
+        background: #efa94a;
+        color: #fff;
+        cursor: pointer;
+    }
     
     @media only screen and (max-width: 1000px) {
         .imagen-card{
