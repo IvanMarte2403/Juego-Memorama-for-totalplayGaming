@@ -98,7 +98,7 @@
 
 
     .imagen-card{
-        width: 80%;
+        width: 60%;
         height: auto;
 
     }
@@ -147,7 +147,7 @@
     
     @media only screen and (max-width: 1000px) {
         .imagen-card{
-            width: 100%;
+            width: 80%;
         }
 
         #tablero{
