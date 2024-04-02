@@ -3,7 +3,7 @@
     :root {
         --w: calc(70vw / 6);
         --h: calc(100vh / 6);
-        --h-mobile: calc(100vh / 9);
+        --h-mobile: calc(100vh / 6);
         --background: #fff;
         --background-tarjeta: #722E85;
         --background-tarjeta-gradiente: #C72627;
