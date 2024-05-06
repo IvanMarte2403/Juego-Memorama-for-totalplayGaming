@@ -1,9 +1,9 @@
 
     /* =======Variables de cambios====== */
     :root {
-        --w: calc(70vw / 6);
-        --h: calc(250vh / 6);
-        --h-mobile: calc(100vh / 6);
+        --w: calc(70vw / 10);
+        --h: calc(250vh / 10);
+        --h-mobile: calc(100vh / 10);
         --background: #fff;
         --background-tarjeta: #722E85;
         --background-tarjeta-gradiente: #C72627;
@@ -84,10 +84,11 @@
         background: linear-gradient(var(--background-tarjeta), var(--background-tarjeta));
         border-radius: 50px;
         border: white 5px solid;
-        font-size: 120%;
+        font-size: 100%;
         color: #fff;
         font-weight: 500;
-        padding: 1.2rem;
+        padding: 0.4rem;
+        margin-bottom: 10vh;
     }
 
     #tablero {
@@ -120,6 +121,9 @@
         align-items: center;
     }
 
+    #puntaje{
+        font-size: 1rem;
+    }
     #pantalla-inicio p{
         color: #fff;
         width: 70%;
