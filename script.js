@@ -15,14 +15,14 @@
         // ========Los iconos estan dandos por una librería llamada Font Awesome, por lo que se debe tener acceso a internet para poder visualizar los iconos.=======
         function cargarIconos() {
             iconos = [
-                '<img src="img/totalplay-tv.png" class="imagen-card"></img>',
-                '<img src="img/75Megas.png" class="imagen-card"></img>',
-                '<img src="img/150Megas.png" class="imagen-card"></img>',
-                '<img src="img/300Megas.png" class="imagen-card"></img>',
-                '<img src="img/600Megas.png" class="imagen-card"></img>',
-                '<img src="img/1000Megas.png" class="imagen-card"></img>',
-                '<img src="img/totalplay-tv.png" class="imagen-card"></img>',
-                '<img src="img/wifi-pro.png" class="imagen-card"></img>',
+                '<img src="img/carta-1.png" class="imagen-card"></img>',
+                '<img src="img/carta-2.png" class="imagen-card"></img>',
+                '<img src="img/carta-3.png" class="imagen-card"></img>',
+                '<img src="img/carta-4.png" class="imagen-card"></img>',
+                '<img src="img/carta-5.png" class="imagen-card"></img>',
+                '<img src="img/carta-6.png" class="imagen-card"></img>',
+                '<img src="img/carta-7.png" class="imagen-card"></img>',
+                '<img src="img/carta-8.png" class="imagen-card"></img>',
             ]
         }
 
